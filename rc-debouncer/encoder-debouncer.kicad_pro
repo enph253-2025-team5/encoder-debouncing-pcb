@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "height": 1.6,
+          "width": 1.6
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -60,23 +60,15 @@
       ],
       "drc_exclusions": [
         [
-          "silk_edge_clearance|146050000|105619180|ac42ad45-bd9d-4cdf-95a2-89a369e8721c|7b489d27-ecb7-43d2-bd9d-a6bd9e3afbf5",
+          "lib_footprint_mismatch|133330000|67310000|d46eb26d-4206-47c7-b6a1-630c6b0e7349|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "silk_edge_clearance|204470000|106700000|a0a4bd61-c5c3-4995-8c6c-6ded236fa8ca|cacabfd3-4661-4875-8a35-938deb5bfdb8",
+          "silk_over_copper|89580666|72751307|0e783085-82c1-4dd4-8645-43d526cb7f05|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "silk_edge_clearance|204470000|116820000|a0a4bd61-c5c3-4995-8c6c-6ded236fa8ca|192d7ed2-5e9e-43d1-a0e5-3d0aae33c768",
-          ""
-        ],
-        [
-          "silk_over_copper|196513216|120809228|e0bb3872-107d-47a7-9a0e-147cf149a295|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|201174715|118309919|acd62ac8-9976-4484-bb09-cee05f9c9d8d|00000000-0000-0000-0000-000000000000",
+          "silk_over_copper|96684621|76591332|327519ff-696c-4486-9646-56c72aa89728|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -121,7 +113,7 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
+        "silk_edge_clearance": "ignore",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
@@ -661,6 +653,22 @@
     [
       "5002c42d-6b75-496b-94db-e684a4d90bf0",
       "Root"
+    ],
+    [
+      "ea32f901-f73f-47d0-ab50-c671095ddaaf",
+      "Schmitt trigger A"
+    ],
+    [
+      "ff5b4289-452e-4f4b-99f1-4992327d4386",
+      "Schmitt trigger B"
+    ],
+    [
+      "232ac7d0-47c3-40a9-8581-4faf77cdaf78",
+      "RC low pass network A"
+    ],
+    [
+      "3bb63038-1300-4ad3-a6a2-88334463b014",
+      "RC low pass network B"
     ]
   ],
   "text_variables": {}
