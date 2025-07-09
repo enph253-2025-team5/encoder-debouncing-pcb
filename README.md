@@ -1,5 +1,5 @@
-# rc-debouncing-pcb
+# encoder-debouncing-pcb
 
-![rc-debouncer-front](./images/rc-debouncer-front.png)
-![rc-debouncer-back](./images/rc-debouncer-back.png)
-![rc-debouncer-orthographic](./images/rc-debouncer-orthographic.png)
+![encoder-debouncer-front](./images/encoder-debouncer-front.png)
+![encoder-debouncer-back](./images/encoder-debouncer-back.png)
+![encoder-debouncer-orthographic](./images/encoder-debouncer-orthographic.png)
